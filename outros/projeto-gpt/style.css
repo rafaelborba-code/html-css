@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #260891;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    text-align: center;
+    width: 300px;
+    background-color: #17225f;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 15px rgb(22, 22, 22);
+}
+
+h2 {
+    color: rgb(185, 185, 185);
+    text-shadow: 5px 5px 5px rgb(39, 39, 39);
+}
+
+img.perfil {
+    border-radius: 50%;
+}
+
+p {
+    color: rgb(168, 168, 168);
+}
+
+button.follow {
+    background-color: rgb(0, 102, 255);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+button.message {
+    background-color: #F44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    margin-left: 5px;
+}

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(rgb(22, 0, 41), black 60%);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.projeto {
+    text-align: center;
+}
+
+a {
+    
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.link-menu:hover {
+    color: rgb(69, 214, 69);
+}
+
+#perfil-rafael {
+    border-radius: 50%;
+    border: 5px solid rgb(69, 214, 69);
+}
+
+.nome {
+    padding: 0px 50px;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(69, 214, 69)
+}
+
+p {
+    text-align: justify;
+}
+
+main {
+    padding: 0px 50px;
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.github {
+    height: 40px;
+    width: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    padding: 30px 10vw;
+    text-align: center;
+}
+
+footer a img{
+    text-align: center;
+}

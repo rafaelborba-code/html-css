@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    background-color: rgb(184, 184, 184);
+    height: 300px;
+    width: 300px;
+    border: 10px solid rgb(51, 51, 51);
+    padding: 10px 20px;
+    outline: 5px dashed cornflowerblue;
+    margin: 20px auto;
+}
+
+a {
+    border: 3px dotted black;
+    padding: 2px;
+}
+
+p {
+    border: 3px /* width */ dashed /* style */ black /* color */;
+    padding: 10px /* cima */ 10px /* direita */ 10px /* baixo */ 10px /* esquerda */; 
+}
+/* Ordem do shorthand: começa por cima e continua em sentido horário. 
+    
+    Se tiver só 2 medidas, a primeira vai representar a medida de cima e de baixo e a outra, as medidas dos lados. ex.: padding: 10px(cima/baixo) 20px(lados)
+    */

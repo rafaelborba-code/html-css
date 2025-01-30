@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    font: italic normal 1em Arial, Helvetica, sans-serif;
+}
+/*Simplificando
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic; 
+
+    é igual a 
+
+    font: (style) (weight) (size) (family) 
+
+*/
+
+/* Medidas absolutas: 
+cm, mm, in(polegada), px, pt(ponto), pc(paica)
+
+Medidas relativas: 
+em: relativo ao tamanho da fonte. 1em: tamanho normal // 2 em: dobro do tamanho normal,
+ex, rem, vw, vh, %
+
+px e em: recomendado para telas e tamanhos de fonte
+
+*/

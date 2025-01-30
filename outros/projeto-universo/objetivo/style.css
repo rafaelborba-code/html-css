@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* Estilo global */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #0d1117;
+    color: #c9d1d9;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    background: #1f6feb;
+    color: white;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background: #161b22;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    color: #58a6ff;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+.imagem {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Links */
+a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background: #1f6feb;
+    color: white;
+    padding: 10px 0;
+}
